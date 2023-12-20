@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 1rem;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover {
+    background-color: white;
+    padding: auto;
+    color: #a306b6;
+    border-radius: 7px;
+    transition: 0.5s;
+}
+nav {
+    background-color: #a306b6;
+}
+
+textarea#message {
+    display: block;
+    margin: 0 auto;
+    width: 400px;
+    border: none;
+    background-color: lightgrey;
+    border-radius: 7px;
+}
+
+h1 {
+    background-color: lightgray;
+    text-align: center;
+    display: block;
+    width: 600px;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 7px;
+}
+
+form {
+    display: block;
+    margin: 0 auto;
+    width: 400px;
+}
+
+form h2 {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+form label {
+    display: block;
+    text-align: left;
+}
+
+form input {
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+    background-color: lightgray;
+    border: none;
+    border-radius: 5px;
+    padding: 7px;
+}
+
+form label {
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+}
+form button {
+    display: block;
+    margin: 20px 0;
+    color: white;
+    background-color: rebeccapurple;
+    border: none;
+    border-radius: 5px;
+    padding: 7px;
+    width: 20%; 
+
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: lightgray;
+    color: white;
+    text-align: left;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+
